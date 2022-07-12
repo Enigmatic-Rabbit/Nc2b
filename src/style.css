@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+*{
+    font-family: 'Source Code Pro', monospace;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body{
+    margin: 0;
+    background-color: #1D181A;
+    color:#f8f5f8;
+}
+/* img{
+    width: 480px;
+    height: 640px; 
+} */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.MainPage{
+    width: 100vw;
+    height: 100vh;
+}
+.openerView{
+    display:flex;
+    gap: 10px;
+    flex-wrap:wrap;
+    width: 100%;
+    height: 100%;
+}
+.cardLarge{
+    flex: 1 0 40%;
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    background:#e29403;
+}
+.cardSmall{
+    padding: 10px;
+    width: 200px;
+    height: 150px; 
+}
+/* .MainNavbar{
+    display: flex;
+    padding: 10px;
+    background-color:#110C13;
+}
+.Pagetitle{
+    padding: 0 10px;
+}
+.Pagetitle >h1>a, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+.Pagetitle >h1> a:hover, a:focus{
+    color:#FFC251;
+}
+.PageNav{
+    padding: 0 10px;
+    align-self: center;
+    margin-left: auto;
+}
+.PageNav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.Navlink{
+    list-style: none;
+}
+.Navlink > a, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.Navlink > a:hover,a:focus{
+    color:#FFC251;
+}
+.textspace{
+    padding: 20px;
+}
+.FeaturedProjectsSection{
+    padding: 20px
+}
+.displayedFeaturedProjects{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+} */
+/* Portfolio Page CSS */
+/* .PorfolioPage{
+    display: flex;
+} */
+.PortfolioDisplay{
+    padding: 10px;
+    display: flex;
+    width: 50%;
+    gap: 20px;
+}
+.Portfoliocard{
+   background-color: rgb(89, 73, 99);
+   width: 224px;
+}
